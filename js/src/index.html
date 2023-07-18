@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./dist/output.css">
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <!-- <div class="container text-center grid">
+        hello world
+        <button onclick="alert('hi')" class="border-2 border-rose-300 text-red-500 bg-red-900 p-2 w-3/12 mx-3" id="hi">mo</button>
+    </div> -->
+    <div id="welcome" class="text-center mx-auto text-3xl bg-teal-800 text-white p-4">welcome to my site</div>
+    <button onclick="sum()" class="text-center mx-auto text-3xl bg-teal-800 text-white p-4 m-3 border-2 border-white">sum two numbers</button>
+    <br>
+    <button onclick="temp()" class="text-center mx-auto text-3xl bg-teal-800 text-white p-4 m-3 border-2 border-white">temperature  to day </button>
+    <div id="temp" class="text-center mx-auto text-3xl bg-teal-800 text-white p-4 m-3 border-2 border-white">temp</div>
+    <button onclick="feel()" class="text-center mx-auto text-3xl bg-teal-800 text-white p-4 m-3 border-2 border-white">temperature  feel </button>
+    <div id="feel" class="text-center mx-auto text-3xl bg-teal-800 text-white p-4 m-3 border-2 border-white">temp</div>
+    <button onclick="faculty()" class="text-center mx-auto text-3xl bg-teal-800 text-white p-4 m-3 border-2 border-white">enter your faculty </button>
+    <div id="faculty" class="text-center mx-auto text-3xl bg-teal-800 text-white p-4 m-3 border-2 border-white">faculty</div>
+    <button onclick="odd()" class="text-center mx-auto text-3xl bg-teal-800 text-white p-4 m-3 border-2 border-white">enter your range </button>
+    <div id="odd" class="text-center mx-auto text-3xl bg-teal-800 text-white p-4 m-3 border-2 border-white">odd</div>
+    <button onclick="math()" class="text-center mx-auto text-3xl bg-teal-800 text-white p-4 m-3 border-2 border-white">solve this example </button>
+    <div id="math" class="text-center mx-auto text-3xl bg-teal-800 text-white p-4 m-3 border-2 border-white">math</div>
+    <button onclick="user()" class="text-center mx-auto text-3xl bg-teal-800 text-white p-4 m-3 border-2 border-white">user data </button>
+    <div id="user" class="text-center mx-auto text-3xl bg-teal-800 text-white p-4 m-3 border-2 border-white">user</div>
+    <input type="text" id="test">
+    <script>
+        alert("Welcome to my site")
+        let EnterYourName = prompt("Enter you name", "Enter you name")
+        let username = EnterYourName
+        document.getElementById("welcome").innerHTML = `Welcome mr ${username}`
+    </script>
+    <script src="main.js" async defer></script>
+</body>
+
+</html>
