@@ -66,11 +66,11 @@ let sumOfTwoNumbers, firstNumber = 0, secondNumber = 0
 
 let sum = () => {
     let firstNumberInput = prompt("enter first number", "enter first number")
-    let secondNumberInput = prompt("enter first number", "enter first number")
+    let secondNumberInput = prompt("enter second number", "enter second number")
     firstNumber = Number(firstNumberInput)
     secondNumber = Number(secondNumberInput)
     sumOfTwoNumbers = firstNumber + secondNumber
-    console.log(sumOfTwoNumbers)
+    alert(sumOfTwoNumbers)
 }
 let temp = () => {
     let tempInter = prompt("enter temperature today", "enter temperature today")
@@ -152,8 +152,10 @@ let odd=()=>{
             age : ${age}
         `
     }
-    let a =document.getElementById("test").value
-    console.log(document.getElementById("test").value)
+    function submitTest (){
+        let input1=document.getElementById('test')
+        document.getElementById("result").innerHTML =input1.value
+    }
 //     let startNumberInter = prompt("enter start number", "enter start number")
 //     let endNumberInter = prompt("enter end number", "enter end number")
     
